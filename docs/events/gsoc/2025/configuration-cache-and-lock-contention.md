@@ -16,7 +16,6 @@ The long-term goal is to improve developer productivity and CI reliability by ma
 ## Project Status
 
 * **Status:** Completed
-* **Milestone:** Midterm Evaluation Successfully Passed , waiting for the Final Evaluation
 * **Current Focus:** The project is now complete. The final phase involved extending Configuration Cache support to a wider range of community plugins, successfully scaling the architecture and insights gained from the initial work. Furthermore, the process provided invaluable learnings and contributed to a substantial increase in technical expertise.
 
 ## Team
@@ -46,7 +45,7 @@ The long-term goal is to improve developer productivity and CI reliability by ma
 ## Final Project Deliverables
 This section lists all the deliverables that were successfully completed for the project.
 
- ### 1. Nebula Gradle Lint Plugin (`gradle-lint-plugin`)
+### 1. Nebula Gradle Lint Plugin (`gradle-lint-plugin`)
 
 * **Problem:** The plugin's primary violation of Configuration Cache principles was its direct reference to the Project object and its use of project.configurations to resolve dependencies at configuration time. The direct Project reference has been successfully removed. However, refactoring the usage of project.configurations is still outstanding, as this part of the work requires a more significant redesign of the plugin's logic.
   
